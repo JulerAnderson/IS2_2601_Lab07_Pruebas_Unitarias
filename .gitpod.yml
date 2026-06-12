@@ -1,9 +1,0 @@
-image: gitpod/workspace-full
-
-tasks:
-  - name: Laboratorio Pruebas Unitarias
-    init: |
-      mvn -q -DskipTests dependency:go-offline
-    command: |
-      echo "Entorno listo."
-      echo "Ejecuta: mvn test"
